@@ -1,0 +1,113 @@
+// COLORS
+$bio-blue: #00234C;
+$bio-grey-blue: #587992;
+$bio-grey: #87898b;
+
+// TYPOGRAPHY
+
+body{
+	background:$bio-blue;
+	color:#fff;
+	font-family: 'Scada';
+}
+
+.hero{
+	background-image: url(../img/sunrise.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	.col{
+		margin-top: 50px;
+		font-size: 1.2rem;
+		max-width: 800px;
+	}
+}
+
+.profile-1{
+	background-image: url(../img/sunrise1.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	.col{
+		margin-top: 50px;
+		font-size: 1.2rem;
+		max-width: 800px;
+	}
+}
+
+.profile-2{
+	background-image: url(../img/sunrise2.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	.col{
+		margin-top: 50px;
+		font-size: 1.2rem;
+		max-width: 800px;
+	}
+}
+
+.profile-3{
+	background-image: url(../img/sunrise3.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	.col{
+		margin-top: 50px;
+		font-size: 1.2rem;
+		max-width: 800px;
+	}
+}
+
+.profile-4{
+	background-image: url(../img/sunrise4.jpeg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	.col{
+		margin-top: 50px;
+		font-size: 1.2rem;
+		max-width: 800px;
+	}
+}
+
+.rise{
+	font-family: 'Orbitron';
+}
+
+.dark-overlay{
+	background: rgba(0, 0, 0, .6);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.btn{
+	background:$bio-blue;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: $bio-grey-blue;
+}
+
+.material-icons{
+	font-size: 7rem;
+	line-height: 0.4;
+}
+
+a {
+  color: $bio-blue;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  }
+ 
+ a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
